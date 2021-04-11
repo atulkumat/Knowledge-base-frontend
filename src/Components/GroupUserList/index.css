@@ -1,0 +1,65 @@
+.user-list-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 33rem;
+}
+.user-tile-username {
+  color: var(--dark-blue);
+  font-weight: 500;
+  font-size: larger;
+  text-transform: capitalize;
+}
+.user-tile-username:hover {
+  text-decoration: underline var(--dark-blue);
+  cursor: pointer;
+}
+.user-list-searchbox {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+input.user-list-input {
+  width: 88%;
+}
+.user-search-icon {
+  padding: 1rem;
+  background-color: var(--orange-color);
+  cursor: pointer;
+}
+.add-btn {
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem;
+  margin: 2rem 0 0 2.7rem;
+  order: none;
+}
+.btn--active {
+  background-color: var(--red-color) !important;
+}
+.add-members {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.add-member-container {
+  display: flex;
+  width: 93%;
+  justify-content: center;
+}
+.add-user-btn {
+  margin: 0 !important;
+}
+.group-controls-btns {
+  display: flex;
+  justify-content: flex-end;
+  width: 96%;
+}

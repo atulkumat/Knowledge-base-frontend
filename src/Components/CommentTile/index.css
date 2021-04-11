@@ -1,0 +1,53 @@
+.comment_tile {
+  display: flex;
+  padding-bottom: 2%;
+}
+.comment_content {
+  padding-left: 3%;
+  padding-right: 4%;
+  padding-top: 2%;
+  text-align: justify;
+  width: 100%;
+}
+.comment_vote_main_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 1.5%;
+  max-height: 28vh;
+  padding-top: 2%;
+  min-height: 28vh;
+  min-width: 5%;
+}
+.comment_vote_second_container {
+  display: flex;
+  justify-content: space-around;
+  min-width: 9vh;
+  align-items: center;
+}
+.accept_answer {
+  color: var(--green);
+  cursor: pointer;
+}
+.accepted_answer {
+  color: var(--red-color);
+  cursor: pointer;
+}
+.tick {
+  color: var(--green);
+}
+.comment_time_section {
+  color: var(--blue-color);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+  border-bottom: 1px solid var(--gray-color);
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 1%;
+}
+.comment_time_section  a{
+  color: aqua;
+}
+.comment_user_name {
+  margin-right: 20px;
+}

@@ -1,0 +1,9 @@
+.select_box {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.p_tag{
+ min-height: 15px;
+ color: var(--red-color);
+}

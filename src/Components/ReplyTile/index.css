@@ -1,0 +1,23 @@
+.reply-container {
+  border-top: 1px solid var(--border-color);
+  padding-top: 10px;
+}
+.reply-details {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11px;
+}
+.author-name {
+  margin-right: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--username-color);
+}
+.author-name:hover {
+  text-decoration: underline var(--username-color);
+  cursor: pointer;
+}
+.reply-content {
+  font-size: 13px;
+  padding-left: 25px;
+}

@@ -1,0 +1,11 @@
+.publicPost_conatiner1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  padding-left: 24px;
+ }
+.publicPost_conatiner1 h2 {
+  font-weight: normal;
+ }
+ 

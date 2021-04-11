@@ -1,0 +1,45 @@
+.user-tile {
+  display: flex;
+  padding: 1rem;
+  box-shadow: 0 2px 9px rgb(186 186 186);
+  margin: 1rem;
+  min-width: 14rem;
+  max-height: 8rem;
+}
+.status--online {
+  color: var(--light-green);
+}
+.status--offline {
+  color: var(--red-color);
+}
+.user-details {
+  width: 90%;
+}
+.user-gender {
+  color: cadetblue;
+  font-weight: bold;
+}
+.owner {
+  color: orange !important;
+}
+.admin {
+  color: #ff0006 !important;
+}
+.owner:hover {
+  text-decoration: underline orange !important;
+}
+.admin:hover {
+  text-decoration: underline #ff0006 !important;
+}
+.owner-controls {
+  display: flex;
+  justify-content: space-between;
+}
+.control-option {
+  font-size: small;
+  color: coral;
+  cursor: pointer;
+}
+.control-option:hover {
+  text-decoration: underline coral;
+}

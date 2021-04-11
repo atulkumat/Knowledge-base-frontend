@@ -1,0 +1,38 @@
+.tag_heading {
+  font-weight: normal;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  margin: 3% 5% 3% 5%;
+  padding-bottom: 2%;
+}
+.tag_block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3% 5% 3% 5%;
+  min-height: 70vh;
+}
+.filter_tags {
+  display: flex;
+  display: flex;
+  align-items: center;
+  padding-left: 6%;
+}
+.filter_tags input {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border: 1px solid var(--black-color);
+  height: 10px;
+}
+.filter_btn{
+  margin-left: 2vh;
+}
+.taglist_controler_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.no_tag{
+  margin-top: 6%;
+  margin-left: 42%;
+  font-size: 36px;
+  color: var(--cadetblue-color);
+}

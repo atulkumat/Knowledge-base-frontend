@@ -1,0 +1,21 @@
+.bookmark_icon {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+  padding-top: 2%;
+}
+.show_bookmark {
+  padding-left: 11%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+.hide_bookmark {
+  display: none;
+}
+.show_bookmark input {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border: 1px solid var(--black-color);
+  height: 10px;
+  margin-bottom: 2%;
+}

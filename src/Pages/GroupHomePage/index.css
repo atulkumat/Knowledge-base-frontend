@@ -1,0 +1,25 @@
+.group-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--purple-color);
+  padding: 1.2rem 0;
+}
+.group-edit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.update-textbox {
+  height: 15rem !important;
+}
+input:disabled {
+  cursor: not-allowed;
+  background-color:#DCDCDC;
+  border: 1px solid gray;
+}
+.group-edit-heading {
+  font-size: larger;
+  font-weight: 500;
+}

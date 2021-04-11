@@ -1,0 +1,22 @@
+.post_vote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 50;
+  min-width: 0%;
+  min-height: 50%;
+  min-height: 25vh;
+}
+.post_vote div {
+  justify-content: space-between;
+  display: flex;
+  min-width: 8vh;
+  align-items: center;
+}
+.blue {
+  color: var(--blue-color);
+}
+.black {
+  color: var(--black);
+  cursor: pointer;
+}

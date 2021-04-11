@@ -1,0 +1,62 @@
+.create-group-heading {
+    height: fit-content;
+    font-size: xx-large;
+    color: var(--purple-color);
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.create-group-main {
+    margin-top: 20px;
+    padding: 0 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-box {
+    margin-top: 1rem;
+}
+.input-group {
+    margin-bottom: 2rem;
+    width: 70%;
+}
+.group-label {
+    margin-right: 20px;  
+    color: var(--input-box-color);
+    font-weight: 500;
+}
+.textbox {
+    border: none;
+    background-color: #f2f5fa;
+    padding:15px 10px;
+    width: 100%;
+    font-weight: 500;
+    color: var(--input-box-color);
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    outline: none;
+    resize: none;
+    height: 10rem;
+}
+.select-box {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.group-select {
+    width: 100%;
+    margin-right: 10px;
+}
+.group-button-container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+.create-group-button, .back-btn {
+    background-color: var(--purple-color);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 20px;
+}

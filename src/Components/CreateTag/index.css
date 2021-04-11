@@ -1,0 +1,22 @@
+.create_tag {
+  display: flex;
+  align-items: center;
+  margin-right: 14vh;
+  margin-bottom: 4%;
+  min-height: 3rem;
+}
+.input_tag input {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border: 1px solid var(--black-color);
+  height: 10px;
+}
+.create_tag_btn {
+  margin-left: 2vh;
+}
+.circular_loader {
+  min-height: 8px !important ;
+}
+.try_again_button {
+  margin-left: 10px;
+}

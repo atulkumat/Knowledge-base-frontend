@@ -1,0 +1,9 @@
+.homepage__container {
+  display: flex;
+}
+.homepage-main {
+  width: 85%;
+}
+.homepage-sidebar {
+  width: 15%;
+}

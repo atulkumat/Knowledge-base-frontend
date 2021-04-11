@@ -1,0 +1,72 @@
+{
+    "user": null,
+    "menu": "home",
+    "groupsList": {
+        "groups": [],
+        "length": 0,
+        "errors": null
+    },
+    "postsList": {
+        "posts": [],
+        "length": 0,
+        "errors": null 
+    },
+    "tagsList": {
+      "tags": [],
+      "length": 0,
+      "errors": null 
+    },
+    "tags":[],
+    "postDetails" :{
+       "post":[],
+       "errors": null
+    },
+    "postVote": null,
+    "post": {
+       "value": null,
+       "errors": null
+     },
+     "createTag": {
+      "tag": null,
+      "errors": null  
+    },
+    "comments": {
+      "content": [],
+      "errors": null
+    },
+    "answer":null,
+    "bookmark":{
+      "note":null,
+      "errors":null
+    },
+  "flags": {
+    "loading": false,
+    "buttonLoader": false,
+    "button": false,
+    "errors": null,
+    "commentsLoader": false
+  },
+  "usersList": {
+    "users": [],
+    "length": [],
+    "errors": null
+  },
+  "groupUserList": {
+    "users": [],
+    "length": [],
+    "errors": null
+  },
+  "groupDetails": {
+    "groups": {},
+    "errors":null
+  },
+  "tagsSuggestion": {
+    "suggestion": [],
+    "errors": null
+  },
+  "userDetails": {
+    "users": {},
+    "errors": null
+  },
+  "acceptAnswerError":null
+}

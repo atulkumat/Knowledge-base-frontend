@@ -1,0 +1,23 @@
+.private-post-conatiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  padding-left: 24px;
+ }
+.private-post-heading{
+  font-weight: normal;
+ }
+.group-post {
+  min-height: 25rem;
+  font-size: xx-large;
+  display: flex;
+  color: var(--gray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.group-post--hidden {
+  text-align: center;
+  font-weight: bold;
+}

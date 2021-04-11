@@ -1,0 +1,24 @@
+.reply-input-option {
+  border-top: 1px solid var(--border-color);
+  padding-top: 10px;
+  font-size: 15px;
+  color: var(--gray-color);
+  cursor: pointer;
+}
+.reply-input {
+  display: flex;
+}
+.reply-input-container {
+  margin-bottom: 15px;
+}
+.add-reply-btn {
+  margin-left: 15px;
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.add-reply-btn:disabled {
+  cursor: not-allowed;
+  background-color: var(--border-color) !important;
+  color: var(--black-color) !important;
+}

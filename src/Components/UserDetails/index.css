@@ -1,0 +1,45 @@
+.user_container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 40%;
+}
+.details {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.arrange1 {
+  color: var(--gray-color);
+  display: flex;
+  align-items: center;
+}
+.arrange2 {
+  color: var(--gray-color);
+  display: flex;
+  align-items: center;
+}
+.user-section img {
+  max-height: 150px;
+  max-width: 150px;
+}
+.user-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid var(--gray-color);
+  -moz-box-shadow: 3px 3px 5px 6px var(--border-color);
+  -webkit-box-shadow: 3px 3px 5px 6px var(--border-color);
+  box-shadow: 3px 3px 5px 6px var(--border-color);
+}
+.user_container1 h1 {
+  font-weight: normal;
+}
+.my_bookmarks{
+  color: var(--gray-color);
+  cursor: pointer;
+}
+.edit-details > a {
+  color:gray !important;
+}

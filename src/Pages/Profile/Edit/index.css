@@ -1,0 +1,56 @@
+.editDetails {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.editDetails-container {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+  padding:20px;
+  border-radius: 3rem;
+  box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+}
+.editDetails-logo {
+  width: 10rem;
+}
+.editDetails-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.editDetails-input-group{
+  width: 40%;
+}
+.editDetails-input-group .effect{
+  padding-top: 5px;
+}
+.editDetails-error {
+  text-align: center;
+  color: var(--red-color);
+  font-size: 14px;
+}
+/* react select */
+.css-g1d714-ValueContainer {
+  border: none;
+  background-color: var(--input-bg-color);
+  padding: 10px 10px !important;
+  width: 100%;
+  color: var(--input-text-color);
+  box-sizing: border-box;
+  outline: none;
+  font-size: smaller;
+}
+.css-1hb7zxy-IndicatorsContainer {
+  border: none;
+  background-color: var(--input-bg-color);
+  color: var(--input-text-color);
+  box-sizing: border-box;
+  outline: none;
+}
+.css-yk16xz-control {
+  border-radius: 0 !important;
+}
